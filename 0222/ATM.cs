@@ -71,7 +71,7 @@ namespace _0223hw
         }
         public void ReceiveCheque()
         {
-            Console.WriteLine("1.Receive the cheque by email \n2.By SMS \n3.Print it");
+            Console.WriteLine("1.Receive the cheque by email \n2.By SMS \n3.Print it\n4.I don't need the cheque");
             int choice = Convert.ToInt32(Console.ReadLine());
             switch (choice)
             {
